@@ -11,7 +11,7 @@ const AddTask = ({ addTask }) => {
   };
 
   return (
-    <div>
+    <div className="add-task">
       <input
         type="text"
         value={taskDescription}
